@@ -1,0 +1,23 @@
+.filters-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+}
+.filters-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filters-icon { color: var(--text3); flex-shrink: 0; }
+.filter-select { width: auto; min-width: 130px; padding: 7px 10px; font-size: 13px; }
+
+@media (max-width: 600px) {
+  .filter-select { min-width: 100%; }
+}
